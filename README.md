@@ -12,4 +12,4 @@ Optimization in RegularizedΝon-negativeΜatrixFactorization.
     The input is an X table of data and the output the optimized lower rank W and C in order to minimize the least square error: min l(W, C) = ∥X − WC∥^2  (
     the projection).
  
- - **The method uses yield go get the values W, C, epsilon value (value compared with the error for the early stop), the iteration it stopped. in each experiment**
+ - **The method uses the yield go get the values for each experiment: W, C, epsilon value (value compared with the error for the early stop), the iteration it    stopped**
