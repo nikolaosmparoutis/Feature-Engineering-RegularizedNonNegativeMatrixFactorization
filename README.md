@@ -6,7 +6,10 @@ Optimization in RegularizedΝon-negativeΜatrixFactorization.
     
     - C [t+1] = C [t] − n_t ∇ C [t] l(W, C [t] )
     
-    - W [t+1] = W [t] − n_t ∇ W [t] l(W [t] , C)
+    - W [t+1] = W [t] − n_t ∇ W [t] l(W [t], C)
     
     Where we keep one parameter variable and the other fixed in each equation. Iteratively we change the variable parameter based on the Gradient Descent Step. 
-    The input is an X table of data and the output W and C
+    The input is an X table of data and the output the optimized lower rank W and C in order to minimize the least square error: min l(W, C) = ∥X − WC∥^2  (
+    the projection).
+ 
+ - **The method uses the yield go get the values for each experiment: W, C, epsilon value (value compared with the error for the early stop), the iteration it    stopped**
