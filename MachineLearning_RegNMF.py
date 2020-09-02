@@ -18,6 +18,8 @@ lambda_ :   float
 epsilon :   float
             the lowest threshold for the termination
 '''
+import numpy as np
+
 
 def gradientDescent_C(X, W, C):
     W_transp = np.transpose(W)
