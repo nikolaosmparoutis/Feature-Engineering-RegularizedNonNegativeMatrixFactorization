@@ -14,4 +14,4 @@ Optimization in RegularizedΝon-negativeΜatrixFactorization.
  
  - **Used the yield to create generator in order to get the values for each experiment: W, C, epsilon value (value compared with the error for the early stop), the iteration it    stopped**
  
-A gentle offer to a good friend to pass for sure his last course in Machine Learning for his master :) 
+A gentle offer to a good friend to pass for sure his last course in Machine Learning to get his master :) 
