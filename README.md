@@ -1,7 +1,7 @@
 # Regularized Non Negative Matrix Factorization
 Optimization in RegularizedΝon-negativeΜatrixFactorization. 
 - A feature engineering algorithm reducing the number of features while retaining the basis information necessary to reconstruct the original data.
-- A matrix V is factorized into (usually) two matrices W and C, with the property that all three matrices have no negative elements (PCA does not do that, the eigenvectors can be pos or neg whenever they want they are free).Also the factorization explains better the dimensions of sparse data than the Principal Component Analysis.
+- A matrix V is factorized into (usually) two matrices W and C, with the property that all three matrices have no negative elements (PCA does not do that, the eigenvectors can be pos or neg runnig free and wild and we can assume negative correlation then anyway. Also the factorization explains better the dimensions of sparse data than the Principal Component Analysis.
 - The optimization developed using the gradient descent steps.
     
     - C [t+1] = C [t] − n_t ∇ C [t] l(W, C [t] )
