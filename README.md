@@ -3,8 +3,8 @@ Optimization in RegularizedΝon-negativeΜatrixFactorization.
 - A feature engineering algorithm reducing the number of features while retaining the basis information necessary to reconstruct the original data.
 - A matrix V is factorized into (usually) two matrices W and C, with the property that all three matrices have no negative elements (PCA does not do that, the eigenvectors can be neg and we can assume negative correlation then). Also the factorization explains better the dimensions of sparse data than the Principal Component Analysis.You ask why now, i answear: PCA are projections into many orthogonal (or not) axis, but how can you see
 more than 3D (you can 4D if you studied Αdvanced Hardware Logic and the words "Critical Race", "Gray Code", "4bits" reminds you something) 
-If you can for more than 4D -simultaneously- the Nobel prize in Physics, ACM, IEEE, and an Oscar as graphic designer are not enough. 
-The factorization does not project vectors, only calclulates geometric distances.
+If you can for more than 4D -simultaneously- the Nobel prize in Physics is enough. 
+The factorization does not project vectors, calclulates geometric distances.
 
 - The optimization developed using the gradient descent steps.
     
